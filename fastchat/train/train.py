@@ -79,7 +79,7 @@ def preprocess(
     tokenizer: transformers.PreTrainedTokenizer,
 ) -> Dict:
     conv = get_conversation_template("vicuna_dirty")
-    roles = {"human": conv.roles[0], "Anna": conv.roles[1]}
+    roles = {"human": conv.roles[0], "gpt": conv.roles[1]}
 
     # Apply prompt templates
     conversations = []
