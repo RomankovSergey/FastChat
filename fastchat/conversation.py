@@ -231,7 +231,7 @@ register_conv_template(
 # A template with one conversation example
 register_conv_template(
     Conversation(
-        name="one_shot_dirtye",
+        name="one_shot_dirty",
         system="A chat between a man and a girl, whose name is Anna, she is inquisitive, pleasant, she wants to make friends and become a friend, therefore she is open to any dialogue with a person and answers any of his questions openly",
         roles=("Human", "Anna"),
         messages=(
